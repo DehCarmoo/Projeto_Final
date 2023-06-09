@@ -323,3 +323,63 @@ p {
 	border: 5px solid rgb(26, 101, 145);
 
 }
+
+#dev {
+	color: white;
+	margin:200px 50px 20px 50px;
+	padding: 0;
+	font-size: 40px;
+	text-align: justify;
+}
+
+section {
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	/* margin-top: 100px;*/
+	margin: 0 30px 30px 30px;
+} 
+
+section .informacoes {
+	text-align: center;
+	margin: 50px;
+	margin-right: 20px;
+	margin-left: 0;
+	padding: 40px ;
+	padding-bottom: 80px;
+	width: 15rem;
+	height: 260px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background: rgb(192, 194, 195);
+	box-shadow: rgba(115, 95, 162, 0.25) 0px 54px 55px, rgba(35, 39, 155, 0.12) 0px -12px 30px, rgba(42, 24, 83, 0.12) 0px 4px 6px, rgba(62, 19, 111, 0.17) 0px 12px 13px, rgba(41, 78, 108, 0.09) 0px -3px 5px;
+	border-radius: 20px;
+}
+
+section .foto {
+	height: 150px;
+	width: 150px;
+	border-radius: 70px;
+}
+
+.nome {
+	margin-right: 70px;
+	margin-bottom: 20px;
+	padding-left: 50px;
+	font-family: 'Inconsolata', monospace;
+}
+
+.redes {
+	display: block;
+	border: 30px;
+	padding: 50%;
+	padding-top: 4px;
+}
+
+.logo_rede {
+	height: 50px;
+	width: 50px;
+	border-radius: 50px;
+}
+
