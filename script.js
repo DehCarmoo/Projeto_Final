@@ -20,5 +20,37 @@ inputBox.onkeyup = (e) => {
         webLink = `https://www.google.com/search?q=${userData}`;
         linkTag.setAttribute('href', webLink);
         linkTag.click();
+
+        
     }
 } 
+
+
+function abrirAlerta1() {
+    swal({
+        title: "Segue gmail abaixo: ",
+        text: "meninagrta@gmail.com",
+        icon: "warning",
+    });
+}
+function abrirAlerta2() {
+    swal({
+        title: "Segue gmail abaixo: ",
+        text: "natalynaty653@gmail.com",
+        icon: "warning",
+    });
+}
+function abrirAlerta3() {
+    swal({
+        title: "Segue gmail abaixo: ",
+        text: "pablogabriel0324@gmail.com",
+        icon: "warning",
+    });
+}
+function abrirAlerta4() {
+    swal({
+        title: "Segue gmail abaixo: ",
+        text: "2005rafaeldocarmo2005@gmail.com",
+        icon: "warning",
+    });
+}
